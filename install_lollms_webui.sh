@@ -9,5 +9,5 @@ chmod o+x linux_*
 
 if [[ "$1" == "-r" ]]; then 
 echo "Running installation"
-./linux_install.sh
+bash linux_install.sh
 fi
